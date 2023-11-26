@@ -1,0 +1,33 @@
+@media (min-width: 992px) {
+    .contact .innerContainer {
+        margin-right: 100px;
+        margin-left: 100px;
+    }
+}
+
+@media (min-width: 768px) {
+    header .home h3 {
+        font-size: 60px;
+    }
+}
+
+@media (max-width: 768px) {
+    header .main-nav .navbar .navbar-nav {
+        background-color: var(--bg-color);
+        padding: 20px;
+        width: 100%;
+        margin: 0;
+    }
+
+    header .main-nav .navbar .navbar-nav li {
+        margin: auto;
+    }
+
+    header .main-nav .navbar .navbar-nav li a {
+        color: var(--main-color);
+    }
+
+    header .home h3 {
+        font-size: 30px;
+    }
+}

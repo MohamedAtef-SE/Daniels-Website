@@ -1,0 +1,41 @@
+     ============ FONT AWESOME USED ICONS ============
+
+     >>>>>>>>>>>>>>> HOME SECTION <<<<<<<<<<<<<<<<<<<<<
+     FaceBook >> <i class="fa-brands fa-facebook-f"></i>
+     Instgram >> <i class="fa-brands fa-instagram"></i>
+     Behance >> <i class="fa-brands fa-behance"></i>
+     linkedin >> <i class="fa-brands fa-linkedin"></i>
+     YouTube >> <i class="fa-brands fa-youtube"></i>
+     Printrest >> <i class="fa-brands fa-pinterest"></i>
+
+     >>>>>>>>>>>>>>> SERVICES SECTION <<<<<<<<<<<<<<<<<<<<<
+     <i class="fa-solid fa-laptop"></i>
+     <i class="fa-solid fa-bullhorn"></i>
+     <i class="fa-solid fa-umbrella"></i>
+     <i class="fa-regular fa-gem"></i>
+     <i class="fa-solid fa-tv"></i>
+     <i class="fa-solid fa-camera"></i>
+
+     >>>>>>>>>>>>>>> PORTFOLIO SECTION <<<<<<<<<<<<<<<<<<<<<
+     <i class="fa-solid fa-link"></i>
+     <i class="fa-brands fa-searchengin"></i>
+
+     >>>>>>>>>>>>>>> COUNTER SECTION <<<<<<<<<<<<<<<<<<<<<
+     <i class="icon-counter fa-solid fa-people-group"></i>
+     <i class="icon-counter fa-solid fa-thumbs-up"></i>
+     <i class="icon-counter fa-solid fa-bullhorn"></i>
+     <i class="icon-counter fa-solid fa-cloud-arrow-down"></i>
+
+     >>>>>>>>>>>>>>> OUR-TEAM SECTION <<<<<<<<<<<<<<<<<<<<<
+     Behance >> <i class="fa-brands fa-behance"></i>
+     linkedin >> <i class="fa-brands fa-linkedin"></i>
+     YouTube >> <i class="fa-brands fa-youtube"></i>
+     Printrest >> <i class="fa-brands fa-pinterest"></i>
+
+     >>>>>>>>>>>>>>> CONTACT-US SECTION <<<<<<<<<<<<<<<<<<<<<
+     <i class="icon fa-solid fa-route"></i>
+     <i class="icon fa-solid fa-envelope"></i>
+     <i class="icon fa-solid fa-phone"></i>
+
+
+    
