@@ -53,6 +53,17 @@ a {
 
 /* ^ NAVBAR */
 
+.fixed-pos {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 12;
+    transition: var(--main-transition);
+}
+
+
+
 
 .navbar .active::after {
     transform: translateX(0%);
