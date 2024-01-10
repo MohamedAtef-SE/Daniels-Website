@@ -44,12 +44,9 @@ window.addEventListener('scroll', () => {
     const sectionTopFarFromView = aboutSection.getBoundingClientRect().top;
     const sectionBottomFarFromView = aboutSection.getBoundingClientRect().bottom;
     const screenView = window.innerHeight;
-    if (sectionTopFarFromView < screenView / 4) {
+    if (sectionTopFarFromView < screenView / 4 && sectionBottomFarFromView > screenView / 2) {
         showProgress();
     } else {
-        hideProgress();
-    }
-    if (sectionBottomFarFromView < screenView / 2) {
         hideProgress();
     }
 })
@@ -94,4 +91,38 @@ graphicBtn.addEventListener('click', function () {
     workBoxs[3].classList.remove('w-0');
     workBoxs[4].classList.add('w-0');
     workBoxs[5].classList.add('w-0');
+})
+
+
+// COUNTER
+
+const counterSection = document.querySelector('.counter');
+const numCounts = document.querySelectorAll('.numCount');
+let start = false;
+
+function startCount() {
+    if (!start) {
+        numCounts.forEach(num => {
+            let sum = 0;
+            const count = setInterval(() => {
+                sum += 10;
+                num.innerHTML = sum;
+                if (sum == num.getAttribute('data-count')) {
+                    clearInterval(count);
+                }
+            }, 10);
+        })
+    }
+    start = true;
+}
+
+window.addEventListener('scroll', function () {
+    const sectionTopFarFromView = counterSection.getBoundingClientRect().top;
+    const sectionBottomFarFromView = counterSection.getBoundingClientRect().bottom;
+    const screenView = window.innerHeight;
+
+    if (sectionTopFarFromView < screenView / 4) {
+        startCount();
+
+    }
 })
