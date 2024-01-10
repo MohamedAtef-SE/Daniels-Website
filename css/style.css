@@ -217,6 +217,18 @@ header .home ul li:hover a {
 
 
 /* ^ WORKS SECTION */
+
+.works .col {
+    transition: .3s;
+
+}
+
+.w-0 {
+    width: 0%;
+    padding: 0px;
+    opacity: 0;
+}
+
 .works .nav-link {
     color: black;
     font-weight: 800;

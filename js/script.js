@@ -53,3 +53,45 @@ window.addEventListener('scroll', () => {
         hideProgress();
     }
 })
+
+
+// Work
+
+const workBoxs = document.querySelectorAll('.work-box');
+const allBtn = document.getElementById('all-pill');
+const brandBtn = document.getElementById('brand-pill');
+const designBtn = document.getElementById('design-pill');
+const graphicBtn = document.getElementById('graphic-pill');
+
+allBtn.addEventListener('click', function () {
+    for (let i = 0; workBoxs.length; i++) {
+        workBoxs[i].classList.remove('w-0');
+    }
+})
+
+brandBtn.addEventListener('click', function () {
+    workBoxs[0].classList.add('w-0');
+    workBoxs[1].classList.remove('w-0');
+    workBoxs[2].classList.add('w-0');
+    workBoxs[3].classList.remove('w-0');
+    workBoxs[4].classList.add('w-0');
+    workBoxs[5].classList.remove('w-0');
+})
+
+designBtn.addEventListener('click', function () {
+    workBoxs[0].classList.remove('w-0');
+    workBoxs[1].classList.add('w-0');
+    workBoxs[2].classList.remove('w-0');
+    workBoxs[3].classList.add('w-0');
+    workBoxs[4].classList.remove('w-0');
+    workBoxs[5].classList.add('w-0');
+})
+
+graphicBtn.addEventListener('click', function () {
+    workBoxs[0].classList.remove('w-0');
+    workBoxs[1].classList.remove('w-0');
+    workBoxs[2].classList.remove('w-0');
+    workBoxs[3].classList.remove('w-0');
+    workBoxs[4].classList.add('w-0');
+    workBoxs[5].classList.add('w-0');
+})
