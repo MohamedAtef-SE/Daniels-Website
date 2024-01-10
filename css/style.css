@@ -143,6 +143,9 @@ header .home ul li:hover a {
 
 .about .progress-bar {
     flex-direction: row;
+    width: 0%;
+    opacity: 0;
+    transition: 1s;
 }
 
 
